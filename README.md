@@ -1,6 +1,6 @@
 # Rack::JsonBooleanResponse
 
-A rack middle that converts ruby boolean value(true/false) to integer(1/0) in
+A rack middleware that converts ruby boolean value(true/false) to integer(1/0) in
 json response.
 
 ## Installation
@@ -8,12 +8,12 @@ json response.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rack-json_boolean_reponse', git: 'git://github.com/jiajiawang/rack-json_boolean_response.git'
+gem 'rack-json_boolean_response', git: 'git://github.com/jiajiawang/rack-json_boolean_response.git'
 ```
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
